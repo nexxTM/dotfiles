@@ -18,6 +18,7 @@ myManageHook = composeAll . concat $
    , [(className =? "Firefox" <&&> (resource =? "Dialog" <||>
                                     resource =? "Toolkit" <||>
                                     resource =? "Browser")) --> doFloat]
+   , [(className =? "Update-manager" <&&> resource =? "update-manager") --> doFloat]
    ]
 
 -- nicer keybindings on NEO2
