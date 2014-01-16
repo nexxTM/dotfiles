@@ -1,0 +1,8 @@
+[user]
+	email = mloewe@weluse.de
+	name = Marius Loewe
+[push]
+	default = simple
+[core]
+	editor = nano
+	excludesfile = /home/marius/.gitignore
