@@ -50,5 +50,5 @@ export EDITOR="nano"
 export VAGRANT_DEFAULT_PROVIDER="lxc"
 
 # Customize to your needs...
-export PATH=$PATH:$HOME/local/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+export PATH=$PATH:$HOME/.local/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 
